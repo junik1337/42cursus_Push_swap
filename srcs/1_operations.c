@@ -6,7 +6,7 @@
 /*   By: ayassir <ayassir@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/13 17:42:30 by ayassir           #+#    #+#             */
-/*   Updated: 2022/06/24 09:35:52 by ayassir          ###   ########.fr       */
+/*   Updated: 2023/02/27 12:35:09 by ayassir          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ void	push_b(t_node **l_b, t_node **l_a, int dta, int indx)
 	head->next = NULL;
 	ft_lstadd_front(l_b, head);
 	(*l_a) = (*l_a)->next;
-	ft_printf("pb\n");
+	printf("pb\n");
 }
 
 void	push_a(t_node **l_b, t_node **l_a)

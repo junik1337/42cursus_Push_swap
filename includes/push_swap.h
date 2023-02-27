@@ -6,7 +6,7 @@
 /*   By: ayassir <ayassir@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/06 14:16:14 by ayassir           #+#    #+#             */
-/*   Updated: 2022/06/23 18:50:10 by ayassir          ###   ########.fr       */
+/*   Updated: 2023/02/27 12:35:29 by ayassir          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <sys/types.h>
 # include <sys/uio.h>
 # include <unistd.h>
+# include <stdio.h>
 
 typedef struct node {
 	int						index;
